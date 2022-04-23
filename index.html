@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <div class="content">
+                <h2>01</h2>
+                <h3>Первая карта</h3>
+                <p>Everything you want to see here</p>
+                <a href="#">Читать больше</a>
+            </div>
+        </div>
+        <div class="box">
+
+            <div class="content">
+                <h2>02</h2>
+                <h3>Вторая карта</h3>
+                <p>Everything you want to see here</p>
+                <a href="#">Читать больше</a>
+            </div>
+        </div>
+        <div class="box">
+
+            <div class="content">
+                <h2>03</h2>
+                <h3>Третья карта</h3>
+                <p>Everything you want to see here</p>
+                <a href="#">Читать больше</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.4,
+
+        });
+    </script>
+</body>
+
+</html>
